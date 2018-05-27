@@ -3,6 +3,12 @@
 	padding: 0;
 }
 
+
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
 body {
 	font-family: tahoma;
 }
@@ -16,8 +22,51 @@ body {
 }
 
 header {
-	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/hero1.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/hero1.jpg);
 	height: 100vh;
 	background-position: center;
 	background-size: cover; 
 }
+
+h1 {
+	color: white;
+}
+
+.main-nav {
+	list-style: none;
+	float: right;
+	margin-top: 50px;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+
+.main-nav li a {
+	color: white;
+	text-decoration: none;
+	font-size: 90%;
+	font-weight: bold;
+}
+
+.logo img {
+	height: 170px;
+	float: left;
+	margin-left: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
