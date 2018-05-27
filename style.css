@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: tahoma;
+}
+
+.hero {
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/hero1.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover; 
+}
