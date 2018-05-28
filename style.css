@@ -79,9 +79,62 @@ h1 {
 	margin-top: 40px;
 }
 
-.btn-haft {
-
+.btn-half {
+	background-color: #FF0000;
+	color: white;
 }
+
+.btn-full:hover {
+	background-color: #FF0000;
+	color: white;
+	transition: all 0.5s ease-in; 
+}
+
+.copy {
+	width: 70%;
+	margin-left: 15%;
+}
+
+h3:after {
+	width: 100px;
+	height: 2px;
+	background-color: #FF0000;
+	display: block;
+	content: " ";
+	margin: 0 auto;
+	margin-top: 23px;
+}
+
+.features h3 {
+	margin-top: 80px;
+	margin-bottom: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
