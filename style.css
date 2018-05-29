@@ -16,7 +16,7 @@ body {
 .hero {
 	position: absolute;
 	width: 1140px;
-	top: 50%;
+	top: 40%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
@@ -26,10 +26,12 @@ header {
 	height: 100vh;
 	background-position: center;
 	background-size: cover; 
+	background-attachment: fixed;
 }
 
 h1 {
 	color: white;
+	padding-top: 19%;
 }
 
 .main-nav {
@@ -139,13 +141,22 @@ h3:after {
 .meal-photo {
 	width: 100%;
 	margin: 0;
+	overflow: hidden;
 }
 .meal-photo img {
 	width: 100%;
 	height: auto;
 	transform: scale(1.15);
+	transition: all 0.5s;
 }
 
+.meal-photo img:hover {
+	transform: scale(1.05);
+}
+
+.meal {
+	margin-top: 60px;
+}
 
 
 
