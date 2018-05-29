@@ -93,6 +93,7 @@ h1 {
 .copy {
 	width: 70%;
 	margin-left: 15%;
+	margin-bottom: 25px;
 }
 
 h3:after {
@@ -113,6 +114,57 @@ h3:after {
 .arranging {
 	text-align: justify;
 }
+
+.features i {
+	font-size: 40px;
+	color: #FF0000;
+	margin-left: 35%;
+}
+
+.features h4 {
+	margin-left: 40px;
+}
+
+.meal-showcase {
+	list-style: none;
+	width: 100%;
+}
+
+.meal-showcase li {
+	display: block;
+	width: 25%;
+	float: left;
+}
+
+.meal-photo {
+	width: 100%;
+	margin: 0;
+}
+.meal-photo img {
+	width: 100%;
+	height: auto;
+	transform: scale(1.15);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
