@@ -204,6 +204,15 @@ h3:after {
 	margin-top: 100px;
 }
 
+.cities img {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.cities i {
+	color: #FF0000;
+	
+}
 
 
 
