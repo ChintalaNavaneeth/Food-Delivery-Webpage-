@@ -155,8 +155,79 @@ h3:after {
 }
 
 .meal {
+	margin-top: 80px;
+}
+
+.pic img {
+	width: 70%;
+	margin-left: 50%;
+	margin-top:20px;
+}
+
+.works-step  {
+	margin-left: 20%;
+	margin-top: 20px;
+}
+
+.works-step div {
+	border: 1px solid #FF0000;
+	display: inline-block;
+	border-radius: 50%;
+	width: 7%;
+	height: 50%;
+	text-align: center;
+}
+
+.works-step img {
+	height: 50px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	content: ".";
+	height: 0;
+	display: block;
+	clear: both;
+}
+
+.mobile {
 	margin-top: 60px;
 }
+
+.cities {
+	margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
