@@ -30,7 +30,7 @@ header {
 }
 
 h1 {
-	color: white;
+	color: #FFFFF0;
 	padding-top: 19%;
 }
 
@@ -47,7 +47,7 @@ h1 {
 
 
 .main-nav li a {
-	color: white;
+	color: #FFFFF0;
 	text-decoration: none;
 	font-size: 90%;
 	font-weight: bold;
@@ -83,12 +83,12 @@ h1 {
 
 .btn-half {
 	background-color: #FF0000;
-	color: white;
+	color: #FFFFF0;
 }
 
 .btn-full:hover {
 	background-color: #FF0000;
-	color: white;
+	color: #FFFFF0;
 	transition: all 0.5s ease-in; 
 }
 
@@ -211,7 +211,29 @@ h3:after {
 
 .cities i {
 	color: #FF0000;
-	
+}
+
+.testimonials {
+	margin-top: 80px;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/food8.jpeg);
+	padding-top: 60px;
+	padding-bottom: 80px;
+	color: #FFFFF0;
+	background-attachment: fixed;
+}
+
+.testimonials p {
+	color: #FFFFF0;
+	line-height: 25px;
+	text-align: justify;
+	margin-top: 40px;
+}
+
+.testimonials cite img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 10px;
 }
 
 
